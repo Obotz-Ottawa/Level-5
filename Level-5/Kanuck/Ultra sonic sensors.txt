@@ -1,0 +1,27 @@
+UltraSonic Definition:
+Having a frequency above the human ear's audibility limit of about 20000 hertz or 20 KHz-used of waves and vibrations
+Example of Ultrsonic devices: Speed Guns, water, some xrays, submarines
+SONAR (sound navigation ranging) is a technique that uses propagation (usually underwater, as in submarine navagation) to navigate, communicate with or detect objects on or under the surface of the water, such as other vessels.
+The Ultrasonic sensor transmits ultrasonic wav es and waits for the waves to reflect back from an object. the time requires for the ultra sonic waves to reflect back helps in determining the distance beetween Ultrasonic sensor and the object.
+We are HR-SR04, an ultrasonic sensor which emits sound waves at a frequency of 40KHz. The sensor has 4 pins - Vcc, Trigger, Echo, and Gnd.
+Ultrasonic sensors use the principle of echo-location. Echo-location is used by mammals like bats and dolphines to check if there is any object in their way.
+0.008575
+PB0 trigger
+PB1 Echo
+PB2 
+0.008575
+micro meters
+to change this ti milli meters,
+multiply the value by 1000
+0.008575 * 1000 = 8.575 milli meters
+to change this ti milli meters,
+multiply the value by 1000
+0.008575 * 1000 = 8.575 milli meters
+to change this ti milli meters,
+multiply the value by 1000
+0.008575 * 1000 = 8.575 milli meters
+to change this ti milli meters,
+multiply the value by 1000
+0.008575 * 1000 = 8.575 milli meters
+
+

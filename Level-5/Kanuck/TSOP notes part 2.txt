@@ -1,0 +1,12 @@
+while((checkbit(PINB,bitn(2)))) → Repeat  until
+                       ↑                         ↑
+                   repeat until        this button is pressed
+while((checkbit(PINB,bitn(2)))); → Wait until;
+                       ↑                         ↑
+                   wait until         this button is pressed
+
+if(on_time == 1) → check if new data is sent
+if(off_time>700) → means weather data the is recived, logic becomes 1
+
+Keycode!=(long)1<<(32 - position); → Formula left shift 1 to respevite bit position. → it resrictes the number from going more than 32
+Serial.println(keycode, HEX); → Display the value in HexaDeciaml Form.

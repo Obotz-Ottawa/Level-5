@@ -1,0 +1,24 @@
+Servo Motor: 
+
+Commands we will be using in Aruduino:
+
+int var = 0; →used as a comperator
+→int angle = 0; → used for the angle
+
+PWM - Pulse Width Modulation
+
+Frequency = 1/T =, Where T is time mesured in seconds
+
+TCCR0 = 0x03; → to scale 16 to 50 HZ for the servo motor
+for servo motor to work we need 50 HZ
+
+void Servo() - function used for using servo motor
+
+int tem = (5 + (angle/10))
+
+if(var == tem) → Comparator
+
+
+
+ 
+
